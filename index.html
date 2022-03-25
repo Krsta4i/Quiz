@@ -1,0 +1,26 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="module">
+      import { getQuestion } from "./app.js";
+      getQuestion().init();
+    </script>
+
+    <title>Document</title>
+    <script></script>
+  </head>
+  <body>
+    <h1 id="questionsTab">Прашања</h1>
+    <div class="container">
+      <h1 id="question"></h1>
+      <h1 id="answer"></h1>
+      <div class="out"></div>
+      <button class="Subbmit" id="SubbmitId">Потрврди</button>
+      <h1 id="questionNumbers"><span id="questionNumber"></span>/10</h1i>
+    </div>
+  </body>
+</html>
